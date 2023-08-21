@@ -1,0 +1,9 @@
+QToolButton#tb_maximize
+{
+	border-image: url(:/Images/squares.png);
+}
+
+QToolButton#tb_maximize:hover
+{
+	border-image: url(:/Images/squares_hover.png);
+}

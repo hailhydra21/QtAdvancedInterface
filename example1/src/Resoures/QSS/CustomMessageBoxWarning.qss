@@ -1,0 +1,65 @@
+#widget_effect
+{
+	background-color: rgba(0, 0, 0, 90);
+}
+
+#widget_effect2
+{
+	background-color: rgba(255, 255, 255, 255);
+}
+
+/* #label
+{
+	background-color: rgb(255, 212, 145);
+	border-radius: 2px;
+} */
+
+#label_title
+{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#label_content
+{
+	font-size: 20px;
+}
+
+#tb_accept
+{
+	background-color: #89ceea;
+	color: white;
+	border: none;
+}
+
+#tb_accept:hover
+{
+	color: darkblue;
+	border-radius: 10px;
+}
+
+#tb_accept:focus
+{
+	color: darkblue;
+	color: lightcoral;
+	margin: 2px 2px 2px 2px;
+}
+
+#tb_cancel
+{
+	background-color: lightsalmon;
+	color: white;
+	border: none;
+}
+
+#tb_cancel:hover
+{
+	color: darkmagenta;
+	border-radius: 10px;
+}
+
+#tb_cancel:focus
+{
+	color: darkblue;
+	margin: 2px 2px 2px 2px;
+}

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SoundEffects/Aatrox/Aatrox_R_skill.wav</file>
+        <file>SoundEffects/Aatrox/cut.wav</file>
+        <file>SoundEffects/Aatrox/Do_you_think_you_can_kill_me.wav</file>
+        <file>SoundEffects/Aatrox/fight.wav</file>
+        <file>SoundEffects/Aatrox/hahahahaa.wav</file>
+        <file>SoundEffects/Aatrox/I_am_Aatrox.wav</file>
+        <file>SoundEffects/Aatrox/Kill_a_thousand_times.wav</file>
+    </qresource>
+</RCC>

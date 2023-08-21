@@ -1,0 +1,7 @@
+QFrame#frame_midCenter2
+{
+	border: 1px solid #f7f7f7;
+	background-color: rgb(242, 242, 242);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}

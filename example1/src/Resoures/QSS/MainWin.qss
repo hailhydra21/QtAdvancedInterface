@@ -1,0 +1,339 @@
+QWidget#widget_left, QWidget#widget_midTop, QWidget#widget_right, QStackedWidget#stackedWidget_midCenter
+{
+	background-color: rgb(255, 255, 255);
+}
+
+QLabel#label_logo
+{
+	border-image: url(:/Images/logo.png);
+}
+
+QLabel#label_welcome
+{
+	font-size: 25px;
+}
+
+QToolButton#tb_minimize
+{
+	border-image: url(:/Images/minus.png);
+}
+
+QToolButton#tb_maximize
+{
+	border-image: url(:/Images/maximize.png);
+}
+
+QToolButton#tb_close
+{
+	border-image: url(:/Images/close.png);
+}
+
+QToolButton#tb_notice
+{
+	border-image: url(:/Images/notice.png);
+}
+
+QToolButton#tb_notice:hover
+{
+	border-image: url(:/Images/notice_hover.png);
+}
+
+QToolButton#tb_user_message
+{
+	border-image: url(:/Images/user_message.png);
+}
+
+QToolButton#tb_user_message:hover
+{
+	border-image: url(:/Images/user_message_hover.png);
+}
+
+QToolButton#tb_minimize:hover
+{
+	border-image: url(:/Images/minus_hover.png);
+}
+
+QToolButton#tb_maximize:hover
+{
+	border-image: url(:/Images/maximize_hover.png);
+}
+
+QToolButton#tb_close:hover
+{
+	border-image: url(:/Images/close_hover.png);
+}
+
+QToolButton#tb_startNewProject
+{
+	border-image: url(:/Images/start_new_project.png);
+}
+
+QToolButton#tb_startNewProject:hover
+{
+	border-image: url(:/Images/start_new_project.png)2 2 2 2;
+}
+
+QLabel#label_startNewProject
+{
+	font-size: 17px;
+	font-family: "宋体";
+	font-weight: bold;
+	color: white;
+	background-color: transparent;
+}
+
+QWidget#widget_startNewProject:hover
+{
+	background-color: #7dc4cc;
+}
+
+/* 模式comboBox切换样式  START*/
+QWidget#widget_comboBox, QWidget#widget_startNewProject
+{
+	background-color: #565a96;
+	border-radius: 20px;
+}
+
+QComboBox#cb_switch
+{
+	font-size: 17px;
+	font-family: "宋体";
+	font-weight: bold;
+	color: white;
+	padding-right: 0px;
+	padding-left: 5px;
+	background-color: transparent;
+	border-radius: 15px;
+	border: none;
+}
+
+QComboBox#cb_switch:hover
+{
+	padding-left: 7px;
+}
+
+QComboBox#cb_switch::drop-down
+{
+	subcontrol-position: center left;
+	width: 30px;
+	height: 40px;
+	border:none;
+}
+
+QComboBox#cb_switch::drop-down:hover
+{
+	image: url(:/Images/down_arrow_hover.png);
+}
+
+QComboBox#cb_switch::down-arrow
+{
+	image: url(:/Images/down_arrow.png);
+}
+
+QComboBox#cb_switch QAbstractItemView
+{
+	outline: 0px solid gray;
+	border: none;
+	/* border-radius: 15px; */
+	min-width: 120px;
+	font-size: 16px;
+	background-color: transparent;
+	
+	/* background-color: #565a96; */
+}
+
+QComboBox#cb_switch QAbstractItemView::item
+{
+	min-height:30px;
+	/* border-radius: 15px; */
+}
+
+QComboBox#cb_switch QAbstractItemView::item:selected
+{
+	background-color: #565a96;
+	/* border-radius: 15px; */
+/* 	background-color: white; */
+	/* color: #f07575; */
+	color: white;
+}
+/* 模式comboBox切换样式  END*/
+
+QLabel#label_VLine
+{
+	background-color: rgb(86, 90, 151);
+	border-radius: 2px;
+}
+
+QLabel#label_VLine_2
+{
+	background-color: rgb(255, 138, 106);
+	border-radius: 2px;
+}
+
+QLabel#label_VLine_3
+{
+	background-color: rgb(255, 212, 145);
+	border-radius: 2px;
+}
+
+QLabel#label_VLine_4
+{
+	background-color: rgb(112, 202, 189);
+	border-radius: 2px;
+}
+
+QWidget#w_topLeft:hover, QWidget#w_topRight:hover, QWidget#w_bottomLeft:hover, QWidget#w_bottomRight:hover,
+QWidget#w_user:hover, QWidget#w_rb_light:hover, QWidget#w_rb_dark:hover
+{
+	background-color: white;
+	border-radius: 15px;
+}
+
+QLabel#label_userProfile
+{
+	border-image: url(:/Images/user_profile.png);
+}
+
+/* QLabel#label_userProfile_2, QLabel#label_userProfile_3,
+QLabel#label_userProfile_4
+{
+	border-image: url(:/Images/user_profile.png);
+} */
+
+QLabel#label_runTimeValue
+{
+	font-size: 23px;
+}
+
+#w_midInfo6
+{
+	background-color: white;
+	border-radius: 20px;
+}
+
+QMenu#AddFunctionMenu, QMenu#ExecuteMenu
+{
+	background-color: rgba(255, 255, 255, 220);
+}
+
+QMenu#AddFunctionMenu::item:selected, QMenu#ExecuteMenu::item:selected
+{
+/* 	color: #565a96; */
+	background-color: #565a96;
+}
+
+QWidget#widget_search
+{
+	background-color: rgb(246, 246, 246);
+	border-radius: 20px;
+}
+
+QLineEdit#le_search
+{
+	border: none;
+	background-color: rgb(246, 246, 246);
+}
+
+QToolButton#tb_search
+{
+	border-image: url(:/Images/search.png);
+}
+
+QToolButton#tb_search:hover
+{
+	border-image: url(:/Images/search.png)3 3 3 3;
+}
+
+QToolButton#tb_search:pressed
+{
+	border-image: url(:/Images/search.png)2 1 2 1;
+}
+
+QLabel#label_hello
+{
+	font-size: 21px;
+}
+
+QLabel#label_userName
+{
+	font-size: 21px;
+	font-weight: bold;
+}
+
+QLabel#label_modes
+{
+	color: #1a1a1a;
+}
+
+QRadioButton#rb_light, QRadioButton#rb_dark
+{
+	font-size: 20px;
+}
+
+QRadioButton#rb_light::checked, QRadioButton#rb_dark::checked
+{
+	color: #565a96;
+}
+
+QRadioButton#rb_light::indicator, QRadioButton#rb_dark::indicator
+{
+	width: 18px;
+	height: 18px;
+}
+ 
+ QRadioButton#rb_light::indicator::checked, QRadioButton#rb_dark::indicator::checked
+{
+	border-image: url(:/Images/radio_checked.png);
+}
+
+QRadioButton#rb_light::indicator::unchecked, QRadioButton#rb_dark::indicator::unchecked
+{
+	border-image: url(:/Images/radio_unchecked.png);
+}
+
+QRadioButton#rb_light::indicator::checked:hover, QRadioButton#rb_dark::indicator::checked:hover
+{
+	border-image: url(:/Images/radio_checked.png)2 2 2 2;
+}
+
+QRadioButton#rb_light::indicator::unchecked:hover, QRadioButton#rb_dark::indicator::unchecked:hover
+{
+	border-image: url(:/Images/radio_unchecked.png)2 2 2 2;
+}
+
+QLabel#label_activityFeed
+{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+QLabel#label_activity_time, QLabel#label_activity_time_2, 
+QLabel#label_activity_time_3
+{
+	font-size: 14px;
+	color: #a0a0a0;
+}
+
+QLabel#label_event, QLabel#label_event_2, 
+QLabel#label_event_3
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+QPushButton#pb_seeMore
+{
+	padding: 7px;
+	color: #565a96;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+}
+
+QPushButton#pb_seeMore:hover
+{
+	background-color: #f2f2f2;
+	border-radius: 15px;
+}
+
+

@@ -1,0 +1,20 @@
+QFrame#frame_midCenter2
+{
+	border: 1px solid #f7f7f7;
+	background-color: rgb(242, 242, 242);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+QLabel
+{
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	font-weight: bold;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6
+{
+	background-color: white;
+	border-radius: 30px;
+}

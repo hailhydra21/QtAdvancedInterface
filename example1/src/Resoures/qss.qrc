@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QSS/CustomMessageBoxCritical.qss</file>
+        <file>QSS/CustomMessageBoxInfo.qss</file>
+        <file>QSS/CustomMessageBoxQuestion.qss</file>
+        <file>QSS/CustomMessageBoxWarning.qss</file>
+        <file>QSS/MainWin.qss</file>
+        <file>QSS/MenuItemGroup.qss</file>
+        <file>QSS/tb_maximizeStyle.qss</file>
+        <file>QSS/tb_squaresStyle.qss</file>
+        <file>QSS/CustomCard.qss</file>
+        <file>QSS/HomePage.qss</file>
+        <file>QSS/TempPage.qss</file>
+    </qresource>
+</RCC>

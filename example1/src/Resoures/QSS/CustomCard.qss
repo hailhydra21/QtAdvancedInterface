@@ -1,0 +1,80 @@
+QFrame#frame
+{
+	background-color: white;
+	border-radius: 30px;
+}
+
+QLabel#label_title
+{
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	font-weight: bold;
+}
+
+QLabel#label_description
+{
+	font-family: "Microsoft YaHei";
+	font-size: 17px;
+	color: #616161;
+}
+
+QLabel#label_team, QLabel#label_PM, QLabel#label_priority
+{
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+	color: #a0a0a0;
+}
+
+QLabel#label_creation_time
+{
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: #a0a0a0;
+}
+
+QWidget#w_participants
+{
+	border-radius: 25px;
+	background-color: #f9f9f9;
+}
+
+QWidget#w_task_state
+{
+	border-radius: 20px;
+	background-color: #eaf8f6;
+}
+
+QLabel#label_task_state
+{
+	color: #77d0c3;
+}
+
+QToolButton#tb_add
+{
+	border-image: url(:/Images/add.png);
+}
+
+QToolButton#tb_collect
+{
+	border-image: url(:/Images/collect.png);
+} 
+
+QToolButton#tb_other
+{
+	border-image: url(:/Images/other.png);
+}
+
+QToolButton#tb_add:hover
+{
+	border-image: url(:/Images/add.png)2 2 2 2;
+}
+
+QToolButton#tb_collect:hover
+{
+	border-image: url(:/Images/collect.png)2 2 2 2;
+} 
+
+QToolButton#tb_other:hover
+{
+	border-image: url(:/Images/other.png)2 2 2 2;
+}

@@ -1,0 +1,16 @@
+QLabel#label
+{
+	background-color: rgb(86, 90, 151);
+	border-radius: 2px;
+}
+
+QScrollArea#scrollArea
+{
+	border-style: none;
+	background-color: white;
+}
+
+QWidget#scrollAreaWidgetContents
+{
+	background-color: white;
+}
