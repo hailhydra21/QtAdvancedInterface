@@ -26,7 +26,7 @@
 ### 样例1:
 <div align=center>
   <img width="100%" src="doc/Snipaste_2023-08-21.png">
-</div>git 
+</div>
 
 #### 描述：
 + 临摹于[**Alam design**](https://dribbble.com/uiuxalam)设计大师。基于Qt5.15.2开发。
